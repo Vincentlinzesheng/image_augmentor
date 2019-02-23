@@ -26,6 +26,8 @@ using the codes listed in the table below:
 |`trans`|Shifts the pixels of the image by the specified amounts in the x and y directions|`trans_20_10`,`trans_-10_0`|
 |`zoom`|Zooms into the specified region of the image, performing stretching/shrinking as necessary|`zoom_0_0_20_20`,`zoom_-10_-20_10_10`|
 |`blur`|Blurs the image by the specified amount|`blur_1.5`|
+|`brightness`|Adjust image brightness|`bright_0.5`|
+|`contrst`|Adjust image contrast|`contrast_50_100`|
 
 
 Each transform argument results in one additional output image being generated for each input image.
