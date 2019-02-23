@@ -119,3 +119,23 @@ Blurs the image. The amount of blurring is specified by a floating-point value i
 <img style="border: 1px solid grey" src="http://codebox.net/graphics/image_augmentor/macaw__blur1.0.png" alt="Blurred Image" width="150" height="150"/>
 <img style="border: 1px solid grey" src="http://codebox.net/graphics/image_augmentor/macaw__blur2.0.png" alt="Blurred Image" width="150" height="150"/>
 <img style="border: 1px solid grey" src="http://codebox.net/graphics/image_augmentor/macaw__blur4.0.png" alt="Blurred Image" width="150" height="150"/>
+
+#### Brightness
+Adjust image brightness. O = I**alpha .
+
+    python main.py ./my_images blur_1.0 bright_0.5 bright_2
+
+<img style="border: 1px solid grey" src="https://github.com/Vincentlinzesheng/image_augmentor/blob/master/img_out/1.png" alt="Original Image" width="150" height="150"/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img style="border: 1px solid grey" src="https://github.com/Vincentlinzesheng/image_augmentor/blob/master/img_out/1__bright0.5.png" alt="Blurred Image" width="150" height="150"/>
+<img style="border: 1px solid grey" src="https://github.com/Vincentlinzesheng/image_augmentor/blob/master/img_out/1__bright2.0.png" alt="Blurred Image" width="150" height="150"/>
+
+#### Contrast
+Adjust image contrast. out_range = (min, max). contrast_min_max
+
+    python main.py ./my_images blur_1.0 contrast_50_100 contrast_100_200
+
+<img style="border: 1px solid grey" src="https://github.com/Vincentlinzesheng/image_augmentor/blob/master/img_out/1.png" alt="Original Image" width="150" height="150"/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img style="border: 1px solid grey" src="https://github.com/Vincentlinzesheng/image_augmentor/blob/master/img_out/1__contrast50_100.png" alt="Blurred Image" width="150" height="150"/>
+<img style="border: 1px solid grey" src="https://github.com/Vincentlinzesheng/image_augmentor/blob/master/img_out/1__contrast100_200.png" alt="Blurred Image" width="150" height="150"/>
